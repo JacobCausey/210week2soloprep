@@ -2,28 +2,34 @@
 
 Console.WriteLine("What was your grade?");
 int grade = Console.Read();
-//Console.WriteLine("Your grade was a ${grade}.");
 
+Console.WriteLine("Your grade was a ${grade}.");
+
+/*string letterGrade = "A";
 //Use an if, else, or else if to convert the int value to a string/grade letter value. (This will be a function)
-string letterGrade = if (grade >= 90)
+if (grade >= 90)
 {
-    letterGrade ="A);
+   string letterGrade ="A";
+   Console.WriteLine("Your grade is a ${letterGrade}");
 }
 else if (grade >= 80)
 {
-    letterGrade ="B");
+   string letterGrade ="B";
+   Console.WriteLine("Your grade is a ${letterGrade}");
 }
 else if (grade >= 70)
 {
-    Console.WriteLine("Your grade is a C");
+    string letterGrade ="C";
+    Console.WriteLine("Your grade is a ${letterGrade}");
 }
 else if (grade >= 60)
 {
-    Console.WriteLine("Your grade is a d");
+   string letterGrade ="D";
+   Console.WriteLine("Your grade is a ${letterGrade}");
 }
 else if (grade > 60)
 {
-    Console.WriteLine("Your grade is an F");
+   string letterGrade ="F";
+   Console.WriteLine("Your grade is a ${letterGrade}");
 }
-
-Console.WriteLine("Your grade is a ${letterGrade}");
+*/
