@@ -1,16 +1,17 @@
 ﻿//ask user for input and take a grade to store as a variable.
 
 Console.WriteLine("What was your grade?");
-int grade = Console.Read();
+string grade = Console.Read();
+int number = int.Parse(grade);
+Console.WriteLine("$Your grade was a {number}.");
 
-Console.WriteLine("Your grade was a ${grade}.");
+string lettergrade = "";
 
-/*string letterGrade = "A";
 //Use an if, else, or else if to convert the int value to a string/grade letter value. (This will be a function)
 if (grade >= 90)
 {
    string letterGrade ="A";
-   Console.WriteLine("Your grade is a ${letterGrade}");
+   Console.WriteLine($"Your grade is a {letterGrade}");
 }
 else if (grade >= 80)
 {
@@ -32,4 +33,3 @@ else if (grade > 60)
    string letterGrade ="F";
    Console.WriteLine("Your grade is a ${letterGrade}");
 }
-*/
